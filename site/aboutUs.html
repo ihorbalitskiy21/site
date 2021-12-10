@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="icon" href="src/images.png">
+    <style>
+
+ *{
+            margin: 0;
+            padding: 0;
+        }
+        html, body{
+            width: 100%;
+            height: 100%;
+        }
+        .relative{
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* This is the trick */
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .absolute{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }   
+        h1{
+            padding: 20px;
+            background-color: rgba(0,0,0,0.6);
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        a{
+            color: #fff ;
+        }
+        a:hover{
+            letter-spacing: 3px;
+            background: rgb(131,58,180);
+            background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            -moz-background-clip: text;
+            -moz-text-fill-color: transparent;
+            transition: 0.5s;
+        }
+        a{
+            color: #fff;
+            transition: 0.5s;
+        }
+        ::-webkit-scrollbar{
+            width: 14px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1f1b1b; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888; 
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555; }
+ 
+        </style>
+        <body>
+           
+
+        <div class="relative" style="background-image: url('src/aboutUs-1.png')">
+            <div class="absolute">
+   <h1>This is a music site, here you will see different types of music and you can choose the one you want to taste</h1>
+   </div>
+</div>
+<div class="relative" style="background-image: url('src/aboutUs-2.png')">
+    <div class="absolute">
+        <h1>We also like to determine the top hits of music every week, you can contact us by contacting us <a href="contacts.html">Contacts</a></h1>
+    </div>
+
+</div>
+</div>
+</body>
+</html>

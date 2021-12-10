@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+html{
+    overflow: hidden;
+}
+
+
+
+p {
+    color: rgb(37, 6, 35); 
+    color: linear-gradient(0deg, rgb(189, 20, 177) 0%, rgb(0, 250, 83) 99%);
+}
+
+
+
+
+.blur{
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+body {
+    background: linear-gradient(-45deg, #000000, #fbff02, #0099ff, #00ffd5);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 20% 70%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.links{
+    z-index: 3;
+}
+.link{
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: rgb(37, 6, 35);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    min-height: 10vh;
+    align-items: center;
+    margin: auto;
+
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex: 1;
+    margin-top: 30px;
+}

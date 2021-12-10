@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background: rgb(255, 187, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    bottom: 0;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    color: #f1f1f1;
+}
+.name a{
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.nav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.feedback-input{
+	color: rgb(0, 0, 0);
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 19px;
+	background-color: #fff;
+	padding: 13px;
+	margin-bottom: 10px;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 100px solid transparent;
+	border-bottom: 50px solid rgb(229, 255, 0);
+}
+.button-submit{
+	float: left;
+	width: 100%;
+	border: 0px solid transparent;
+	cursor: pointer;
+	background-color: #000;
+	color: white;
+	font-size: 18px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	transition: 0.3s;
+	margin-top: -4px;
+	font-weight: 300;
+}
+.text {
+  
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    font-size: 250%;
+    text-align:  center;
+    color:rgb(0, 247, 255);
+}

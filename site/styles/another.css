@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+*, *::before, *::after {
+  padding: 0;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 21, 21);
+  height: 100vh;
+  -ms-grid-rows: 100%;
+  -ms-grid-columns: 3fr (1fr);
+      grid-template: 100%/3fr repeat(54, 1fr) 3fr;
+  overflow: hidden;
+}
+
+.cell {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+.text:after {
+  content: var(--partialString);
+  font-family: "Sofia", cursive;
+  font-size: var(--size);
+  color: var(--color);
+}
+
+#one {
+  position: absolute;
+  left: -89%;
+}
+
+#two {
+  position: absolute;
+  left: 11%;
+}
+
+#three {
+  position: absolute;
+  left: 23%;
+}
+
+#four {
+  position: absolute;
+  left: 34%;
+}
+
+#five {
+  position: absolute;
+  left: 45%;
+}
+
+#six {
+  position: absolute;
+  left: 56%;
+}
+
+#seven {
+  position: absolute;
+  left: 67%;
+}
+
+#eight {
+  position: absolute;
+  left: 78%;
+}
+
+#nine {
+  position: absolute;
+  left: 89%;
+}
